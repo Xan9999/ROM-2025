@@ -1,0 +1,112 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[      4264,        104]
+NotebookOptionsPosition[      3778,         87]
+NotebookOutlinePosition[      4180,        103]
+CellTagsIndexPosition[      4137,        100]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"SetDirectory", "[", 
+   RowBox[{"NotebookDirectory", "[", "]"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"Import", "[", "\"\<rezultati.xlsx\>\"", "]"}], "[", 
+   RowBox[{"[", "1", "]"}], "]"}], " ", "//", " ", "TableForm"}]}], "Input",
+ CellChangeTimes->{{3.955694338575781*^9, 3.955694391882759*^9}, {
+  3.955694423350624*^9, 3.9556944424359474`*^9}, {3.9556944807275352`*^9, 
+  3.9556944852044716`*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"5d2d97c4-c46f-e04e-aa47-af56dfee06c6"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"\<\"Priimek\"\>", "\<\"Ime\"\>", "\<\"Skupina\"\>", \
+"\<\"To\[CHacek]ke\"\>"},
+    {"\<\"Furlan\"\>", "\<\"Luka\"\>", "\<\"A\"\>", "93.`"},
+    {"\<\"Karaka\[SHacek]\"\>", "\<\"Alenka\"\>", "\<\"A\"\>", "94.`"},
+    {"\<\"Ko\[CHacek]ar\"\>", "\<\"Petra\"\>", "\<\"B\"\>", "44.`"},
+    {"\<\"Kofol\"\>", "\<\"Andra\[ZHacek]\"\>", "\<\"C\"\>", "34.`"},
+    {"\<\"Kumar\"\>", "\<\"Barbara\"\>", "\<\"B\"\>", "67.`"},
+    {"\<\"Logar\"\>", "\<\"Mateja\"\>", "\<\"A\"\>", "42.`"},
+    {"\<\"Pance\"\>", "\<\"Martin\"\>", "\<\"B\"\>", "64.`"},
+    {"\<\"Pleterski\"\>", "\<\"Vesna\"\>", "\<\"C\"\>", "30.`"},
+    {"\<\"Tr\[CHacek]ek\"\>", "\<\"Valerija\"\>", "\<\"B\"\>", "70.`"},
+    {"\<\"Virant\"\>", "\<\"Primo\[ZHacek]\"\>", "\<\"C\"\>", "58.`"},
+    {"\<\"Vesel\"\>", "\<\"Polona\"\>", "\<\"C\"\>", "66.`"},
+    {"\<\"\[CapitalZHacek]vegli\[CHacek]\"\>", "\<\"Katarina\"\>", \
+"\<\"A\"\>", "46.`"},
+    {"\<\"Cvelbar\"\>", "\<\"Janja\"\>", "\<\"B\"\>", "39.`"},
+    {"\<\"Furlan\"\>", "\<\"Ale\[SHacek]\"\>", "\<\"B\"\>", "36.`"},
+    {"\<\"Iskra\"\>", "\<\"Sabina\"\>", "\<\"A\"\>", "77.`"},
+    {"\<\"Jerman\"\>", "\<\"Katja\"\>", "\<\"B\"\>", "100.`"},
+    {"\<\"Karni\[CHacek]ar\"\>", "\<\"Jaka\"\>", "\<\"C\"\>", "26.`"},
+    {"\<\"Koro\[SHacek]ec\"\>", "\<\"Kristina\"\>", "\<\"B\"\>", "86.`"},
+    {"\<\"Kr\[ZHacek]i\[SHacek]nik\"\>", "\<\"Grega\"\>", "\<\"B\"\>", "90.`"},
+    {"\<\"Obrenovi\[CAcute]\"\>", "\<\"Tatjana\"\>", "\<\"C\"\>", "44.`"},
+    {"\<\"Puncer\"\>", "\<\"Primo\[ZHacek]\"\>", "\<\"A\"\>", "57.`"},
+    {"\<\"Ribnikar\"\>", "\<\"Matja\[ZHacek]\"\>", "\<\"A\"\>", "43.`"},
+    {"\<\"\[CapitalSHacek]temberger\"\>", "\<\"Igor\"\>", "\<\"B\"\>", "85.`"},
+    {"\<\"\[CapitalSHacek]uba\[SHacek]i\[CHacek]\"\>", "\<\"Matej\"\>", \
+"\<\"C\"\>", "76.`"},
+    {"\<\"Tekav\[CHacek]i\[CHacek]\"\>", "\<\"Aleksander\"\>", "\<\"A\"\>", 
+     "34.`"},
+    {"\<\"Tratnik\"\>", "\<\"Mojca\"\>", "\<\"B\"\>", "79.`"},
+    {"\<\"Smrekar\"\>", "\<\"Andreja\"\>", "\<\"A\"\>", "38.`"},
+    {"\<\"Bezek\"\>", "\<\"Toma\[ZHacek]\"\>", "\<\"B\"\>", "38.`"}
+   },
+   GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+   GridBoxSpacings->{"Columns" -> {
+       Offset[0.27999999999999997`], {
+        Offset[2.0999999999999996`]}, 
+       Offset[0.27999999999999997`]}, "Rows" -> {
+       Offset[0.2], {
+        Offset[0.4]}, 
+       Offset[0.2]}}],
+  Function[BoxForm`e$, 
+   TableForm[BoxForm`e$]]]], "Output",
+ CellChangeTimes->{{3.9556944441025467`*^9, 3.95569448619335*^9}},
+ CellLabel->
+  "Out[6]//TableForm=",ExpressionUUID->"58f6cc04-e94a-4b42-b929-02c61acc9cf1"]
+}, Open  ]]
+},
+WindowSize->{1440, 741.75},
+WindowMargins->{{-6, Automatic}, {Automatic, -6}},
+FrontEndVersion->"14.1 for Microsoft Windows (64-bit) (July 16, 2024)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"a9414be7-5479-944a-b9a1-e49a9679822f"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[576, 22, 552, 12, 47, "Input",ExpressionUUID->"5d2d97c4-c46f-e04e-aa47-af56dfee06c6"],
+Cell[1131, 36, 2631, 48, 564, "Output",ExpressionUUID->"58f6cc04-e94a-4b42-b929-02c61acc9cf1"]
+}, Open  ]]
+}
+]
+*)
+
